@@ -1,0 +1,29 @@
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.csprojResolveAssemblyReference.cache
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.Form1.resources
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.Properties.Resources.resources
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.csproj.GenerateResource.Cache
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\bin\Debug\LIFE.exe.config
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\bin\Debug\LIFE.exe
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\bin\Debug\LIFE.pdb
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.exe
+c:\users\orlov\documents\visual studio 2017\Projects\LIFE\LIFE\obj\Debug\LIFE.pdb
+C:\Users\orlov\Desktop\LIFE\LIFE\bin\Debug\LIFE.exe.config
+C:\Users\orlov\Desktop\LIFE\LIFE\bin\Debug\LIFE.exe
+C:\Users\orlov\Desktop\LIFE\LIFE\bin\Debug\LIFE.pdb
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.csprojResolveAssemblyReference.cache
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.Form1.resources
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.Properties.Resources.resources
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.csproj.GenerateResource.Cache
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.exe
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.pdb
+C:\Users\orlov\Desktop\LIFE\LIFE\obj\Debug\LIFE.Form2.resources
+D:\Учёба\Программирование\C#\LIFE\LIFE\bin\Debug\LIFE.exe.config
+D:\Учёба\Программирование\C#\LIFE\LIFE\bin\Debug\LIFE.exe
+D:\Учёба\Программирование\C#\LIFE\LIFE\bin\Debug\LIFE.pdb
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.csprojResolveAssemblyReference.cache
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.Form1.resources
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.Form2.resources
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.Properties.Resources.resources
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.csproj.GenerateResource.Cache
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.exe
+D:\Учёба\Программирование\C#\LIFE\LIFE\obj\Debug\LIFE.pdb
