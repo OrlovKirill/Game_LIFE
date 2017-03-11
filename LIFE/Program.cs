@@ -17,7 +17,6 @@ namespace LIFE
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 f1 = new Form1();
-            f1.sc = new Scanner(f1);
             Application.Run(f1);
             }
         }

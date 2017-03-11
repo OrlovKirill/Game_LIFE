@@ -15,7 +15,7 @@ namespace LIFE
 
     public partial class Form2: Form
         {
-        protected int sizeOfWindow = 900;
+        protected int sizeOfWindow;
         protected int sizeOfCell;
         public bool[,] ManuallyTerrain;
         protected int size ;
@@ -34,6 +34,7 @@ namespace LIFE
             sizeOfCell = sizeOfWindow / size;
             bmp1 = new Bitmap(pictureBox1.Height , pictureBox1.Width);
             g1 = Graphics.FromImage(bmp1);
+            sizeOfWindow = pictureBox1.Height;
             Pen pen = new Pen(Color.LightGray , 1);
             for (int i = 0 ; i < size ; i++)
                 {

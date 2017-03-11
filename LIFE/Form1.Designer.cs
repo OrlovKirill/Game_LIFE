@@ -48,6 +48,10 @@
             this.PLAY = new System.Windows.Forms.Button();
             this.MANUALLY = new System.Windows.Forms.Button();
             this.RAND = new System.Windows.Forms.Button();
+            this.NumOfCells = new System.Windows.Forms.Label();
+            this.Growth = new System.Windows.Forms.Label();
+            this.TurnTime = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_SIZE)).BeginInit();
@@ -293,7 +297,7 @@
             this.PLAY.Text = "PLAY";
             this.PLAY.UseVisualStyleBackColor = true;
             this.PLAY.Visible = false;
-            this.PLAY.Click += new System.EventHandler(this.PLAY_Click_1);
+            this.PLAY.Click += new System.EventHandler(this.PLAY_Click);
             // 
             // MANUALLY
             // 
@@ -315,6 +319,46 @@
             this.RAND.UseVisualStyleBackColor = true;
             this.RAND.Click += new System.EventHandler(this.RAND_Click);
             // 
+            // NumOfCells
+            // 
+            this.NumOfCells.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NumOfCells.ForeColor = System.Drawing.Color.Green;
+            this.NumOfCells.Location = new System.Drawing.Point(13, 619);
+            this.NumOfCells.Name = "NumOfCells";
+            this.NumOfCells.Size = new System.Drawing.Size(596, 23);
+            this.NumOfCells.TabIndex = 21;
+            this.NumOfCells.Text = "NumOfCells";
+            // 
+            // Growth
+            // 
+            this.Growth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Growth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Growth.Location = new System.Drawing.Point(13, 653);
+            this.Growth.Name = "Growth";
+            this.Growth.Size = new System.Drawing.Size(596, 17);
+            this.Growth.TabIndex = 22;
+            this.Growth.Text = "Growth";
+            // 
+            // TurnTime
+            // 
+            this.TurnTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TurnTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.TurnTime.Location = new System.Drawing.Point(615, 619);
+            this.TurnTime.Name = "TurnTime";
+            this.TurnTime.Size = new System.Drawing.Size(603, 17);
+            this.TurnTime.TabIndex = 23;
+            this.TurnTime.Text = "TurnTime";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(1229, 154);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(86, 21);
+            this.checkBox1.TabIndex = 24;
+            this.checkBox1.Text = "LAYOUT";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -322,7 +366,11 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1472, 626);
+            this.ClientSize = new System.Drawing.Size(1472, 679);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.TurnTime);
+            this.Controls.Add(this.Growth);
+            this.Controls.Add(this.NumOfCells);
             this.Controls.Add(this.RAND);
             this.Controls.Add(this.MANUALLY);
             this.Controls.Add(this.PLAY);
@@ -349,7 +397,6 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "                                                                                 " +
     "                                    I      N      C      U      B      A      T " +
     "     O      R";
@@ -365,8 +412,6 @@
             }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label_size;
         private System.Windows.Forms.Label label_sizeValue;
         private System.Windows.Forms.Label label_foundersValue;
@@ -385,6 +430,12 @@
         private System.Windows.Forms.Button MANUALLY;
         private System.Windows.Forms.Button RAND;
         private System.Windows.Forms.TrackBar trackBar_SIZE;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.Label NumOfCells;
+        public System.Windows.Forms.Label Growth;
+        public System.Windows.Forms.Label TurnTime;
+        private System.Windows.Forms.CheckBox checkBox1;
         }
     }
 
